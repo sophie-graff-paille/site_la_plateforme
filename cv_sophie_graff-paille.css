@@ -1,0 +1,57 @@
+* {
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    padding: 10px;
+}
+body{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+h1{
+    font-size: 3vw;
+    text-align: center;
+}
+.container_gauche .présentation p{
+    font-size: 2vw;
+    text-align: center;
+}
+.container_gauche{
+    display: grid;
+    grid-template-rows: 15% 50% 15% 20%;
+}
+.container_gauche > :first-child{
+    background-color: #f5f5f5;
+}
+.container_gauche > :nth-child(2){
+    background-color: #69F19A;
+}
+.container_gauche > :nth-child(3){
+    background-color: #C8F3F6;
+}
+.container_gauche > :last-child{
+    background-color: #9AC8B9;
+}
+.icônes > :is(a, p){ 
+    display: flex;
+    align-items: center;
+}
+:is(.diplômes, .intérêt) > ul{
+    padding: 0% 5%;
+}
+.container_droit{
+    display: grid;
+    grid-template-rows: 30% 52% 18%;
+}
+.container_droit > :first-child{
+    background-color: #F8E1D6;
+}
+.container_droit > :nth-child(2){
+    background-color: #95F1DB;
+}
+.container_droit > :last-child{
+    background-color: #f5f5f5;
+}
+.compétences > div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
